@@ -51,7 +51,7 @@ ___
 
 ![Markdown Image](https://markdown-here.com/img/icon256.png)
 
-```
+```bash
 This is a git-code block
 ```
 
