@@ -65,7 +65,7 @@ This is a git-code block
 
 ```
 
-* [] task 1
+* [ ] task 1
 * [X] task 2
 * [ ] task 3
 * [x] task 4
