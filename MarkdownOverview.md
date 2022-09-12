@@ -16,7 +16,7 @@ _This is_ italicized also
 <!-- Strong -->
 **This text is bolded**
 
-__This text is bolded__
+__This text__ is bolded
 
 <!-- Strikethrough -->
 ~~This text~~ is crossed out
