@@ -49,8 +49,11 @@ ___
 1. I am a pea
 1. Dont eat me!!!!!
 
+![Markdown Image](https://markdown-here.com/img/icon256.png)
 
-
+```
+This is a git-code block
+```
 
 
 
