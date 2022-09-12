@@ -29,3 +29,12 @@ ___
 
 \*This text shows the star using an escape sequenece\*
 
+<!-- Block Quote -->
+> This is a block quote and it is pretty cool
+
+[Google](http://www.google.com)
+
+
+
+
+
