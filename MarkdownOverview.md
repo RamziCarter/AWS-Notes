@@ -32,9 +32,19 @@ ___
 <!-- Block Quote -->
 > This is a block quote and it is pretty cool
 
+<!-- Links -->
 [Google](http://www.google.com)
 
 [Youtube](http://www.Youtube.com "Click the link NOW!!!!!!")
+
+<!--Unordered Lists-->
+* hello this is a list
+* with no particular oder 
+* Have an awesome day
+
+
+
+
 
 
 
