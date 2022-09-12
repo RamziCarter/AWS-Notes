@@ -15,6 +15,7 @@ _This is_ italicized also
 
 <!-- Strong -->
 ** This text is bolded**
+
 __ This text is bolded__
 
 <!-- Strikethrough -->
