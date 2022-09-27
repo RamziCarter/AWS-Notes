@@ -83,4 +83,42 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
 ---
 #### IAM - Identity and Access Management
 
+* IAM Policies - __Grant or Deny permissions__
+
+> Structure of IAM Policies
+
+```bash
+{
+ "Statement": [{
+   "Effect": "Allow",
+   "Action": "eC2: *",
+   "Resource": 
+   "Condition": {
+   
+   }
+  }]
+  }
+```
+* IAM Policies can be assigned to users and groups 
+* The users/groups either have/don't have permission to given parameters
+* IAM Policies are usually stored within .JSON documents
+
+#### Policy Structure
+
+|Element|Description|Required|Example|
+|-------|-----------|--------|-------|
+|Effect|Specifies whether the statement results in an allow or an explicit deny| ✔️|"Effect": "Deny"| 
+|Action|Describe the specific action that will be allowed or denied| ✔️|"Action": "iam": "CreateUser"|
+|Resource|Specifies the Object or Objects that the statement covers| ✔️|"Resource": "arn: aws:iam:: account-ID-without-hyphens:user/Bob"|
+
+---
+
+#### Role Based Access om AWS
+1.
+1.
+1.
+1.
+
+
+
 
