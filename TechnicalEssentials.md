@@ -114,10 +114,26 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
 ---
 
 #### Role Based Access om AWS
-1.
-1.
-1.
-1.
+1. Admin creates IAM Role that grants access to the Amazon S3 Bucket
+1. Launch EC2 Instance with IAM Role
+1. App retireves IAm Role Credemtials from EC2
+1. App makes API call using temporary credentials
+
+```
+                AWS Account    **Billing, IAM, Route52**
+                 IAM Users
+                   |
+     --------------------------------    
+     |               |              |    **S3, DynamoDB, VPC, ELB**
+  Region 1        Region 2      Region 3   
+     |               |              |
+    / \             / \          /  |  \
+ AZ1  AZ2        AZ1  AZ2      AZ1  AZ2  AZ3  **EC2, RDS, EBS**
+ 
+```
+
+
+
 
 
 
