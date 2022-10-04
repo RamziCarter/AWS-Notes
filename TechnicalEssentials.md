@@ -120,17 +120,20 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
 1. App makes API call using temporary credentials
 
 ```
-                AWS Account    **Billing, IAM, Route52**
+                AWS Account                        | Billing, IAM, Route53
                  IAM Users
                    |
      --------------------------------    
-     |               |              |    **S3, DynamoDB, VPC, ELB**
+     |               |              |              | S3, DynamoDB, VPC, ELB
   Region 1        Region 2      Region 3   
      |               |              |
     / \             / \          /  |  \
- AZ1  AZ2        AZ1  AZ2      AZ1  AZ2  AZ3  **EC2, RDS, EBS**
+ AZ1  AZ2        AZ1  AZ2      AZ1  AZ2  AZ3       | EC2, RDS, EBS
  
 ```
+
+
+
 
 
 
