@@ -71,5 +71,3 @@ This is a git-code block
 * [x] task 4
 
 
-## General Overview
-
