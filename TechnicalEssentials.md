@@ -119,6 +119,8 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
 1. App retireves IAm Role Credemtials from EC2
 1. App makes API call using temporary credentials
 
+
+#### Scope By Level!!
 ```
                 AWS Account                        | Billing, IAM, Route53
                  IAM Users
@@ -132,7 +134,8 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
  
 ```
 
-
+#### AWS Services General Overview (Not all Services, Just Most Common)
+_AWS Compute and Analytics Services_
 
 
 
