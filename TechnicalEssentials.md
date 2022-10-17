@@ -133,9 +133,52 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
  AZ1  AZ2        AZ1  AZ2      AZ1  AZ2  AZ3       | EC2, RDS, EBS
  
 ```
+---
 
 #### AWS Services General Overview (Not all Services, Just Most Common)
-_AWS Compute and Analytics Services_
+> AWS Compute and Analytics Services
+* EC2 - Elastic Compute Cloud
+* Auto Scaling - EC2 Horizontal Scaling
+* Lambda - Serverless Computing
+* ELB - Elastic Load Balancer
+* ECS - Eleastic Container Service
+* EMR - Elastic Mapreduce
+* Kinesis - Real Time Data/Video Streaming
+* Athena- Interactive Query Engine
+* QuickSight - Business Intelligence
+* Glue - ETL Service
+
+> AWS Storage and Database Services
+* EBS - Elastic Storage Block
+* S3 - Simple Storage Service
+* EFS - Eleastic File System
+* RDS - Relational Database Service
+* DynamoDB - AWS NoSQL Database
+* RedShift - Data Warehousing
+* Elasticache - Fast and Flexible Caching
+
+> AWS Network and Management Services
+* VPC - Virtual Private Cloud
+* Route53 - AWS DNS Service
+* Direct Connect - Dedicated Network
+* Cloud Front - Content Delivery Network
+* CloudWatch - Application & Infrastructure monitoring
+* CloudFormation - Provision Infrastructure
+* Elastic Beanstalk - Application Orchestration Service
+* Opsworks - Infrastructure Configuration Management
+
+> AWS Application and Development Services
+* API Gateway - Managed REST and Websocket API's
+* SQS - Simple Queue Service
+* SNS - Simple Notification Service
+* SES - Simple Email Service
+* Cognito - User Management for Web & Mobile Apps
+* CodeCommit - Hosted GIT Repository by AWS
+* CodeBuild - Continuos Integration Service
+* CodeDeploy - Automated Deployment
+* CodePipeline - Continous Delivery Service
+* CodeStar - Develop Build Deploy Manage and Track
+
 
 
 
