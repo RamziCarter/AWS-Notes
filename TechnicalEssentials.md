@@ -181,6 +181,15 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
 
 ---
 
+#### Role Based Access in AWS
+
+Root User - Access to all resources within account
+* best to lock down this user
+  * delete root user access keys
+  * enable MFA
+
+
+
 
 
 
