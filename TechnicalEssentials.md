@@ -183,11 +183,31 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
 
 #### Role Based Access in AWS
 
-Root User - Access to all resources within account
+> Root User - Access to all resources within account
 * best to lock down this user
   * delete root user access keys
   * enable MFA
 
+> Follow Principle of least Privilege 
+* grant only the necessary permissions to do a particular job
+* IAM Policiy 
+  * Grant additional permissions if necessary by user, group or role
+
+
+> Correct IAM Usage
+* create and manage users/groups/roles
+
+> Use IAM Roles when possible
+* when roles are assigned, IAM dynamically provides temporary credentials that expire from 15 mins to 36 hours
+* IAM users have long term credentials in the form of username and password combinations or a set of access keys 
+  * keys only expire when admin rotates them
+  * passwords may be rotated as well
+
+> Use and Identify Provider
+* provides a single source of truth for all identities in your organization
+
+> AWS Single Sign-On
+* 
 
 
 
