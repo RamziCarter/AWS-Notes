@@ -224,8 +224,26 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
     
 ---
   
+#### Learning about AWS Services
 
+EC2 Instance Demo 
+* AWS provides a default VPC
+* VPC is a private network for AWS resources (Virtual Private Cloud)
 
+```
+EVERY EC2 MUST LIVE INSIDE OF A NETWORK
+```
+
+* An instance of EC2 is one single virtual machine
+
+> Servers 
+* handle HTTP - **Hyper Text Transfer Protocol**
+  * requests and send responses to clients following the client-server model
+  
+#### 3 Types of compute options
+* virtual machines
+* container services
+* serverless
 
 
 
