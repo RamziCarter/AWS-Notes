@@ -207,7 +207,23 @@ Protect **Root User**!!!! (Email: **Access to all the capabilities**)
 * provides a single source of truth for all identities in your organization
 
 > AWS Single Sign-On
-* 
+* an identity provider that lets your users sign into a user potal with a single set of credentials
+  * it then provides users access to their assigned accounts and applications in a central location
+
+> Abilities of AWS SSO
+* Like IAM
+  * directories to create users 
+  * organize them into groups
+  * set permissions across the groups
+  * grant access to AWS resources
+* Advantages over IAM
+  * if you're using a 3rd party identity provider you can sync your users and groups to AWS SSO
+    * no need to recreate users that exist elsewhere
+    * manage users frim your identity provider (IdP)
+    * AWS SSO separates the duties between your IdP and AWS (not inside or dependent of IdP)
+    
+---
+  
 
 
 
