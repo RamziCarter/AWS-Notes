@@ -245,7 +245,12 @@ EVERY EC2 MUST LIVE INSIDE OF A NETWORK
 * container services
 * serverless
 
-
+> AMI - Amazon Machine Image
+* Root volume template
+  * Typically contains an OS
+  * Applications pre-installed on instance at boot
+  * Launch permissions
+  * Block device mapping
 
 
 
