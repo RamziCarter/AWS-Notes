@@ -252,11 +252,21 @@ EVERY EC2 MUST LIVE INSIDE OF A NETWORK
   * Launch permissions
   * Block device mapping
 
-
+---
 The amazon machin image looks like this:
 
 ```
 An Amazon Machine Image (AMI) is a supported and maintained image provided by AWS that provides the information required to launch an instance.
 ```
+
+An AMI includes the following:
+
+One or more Amazon Elastic Block Store (Amazon EBS) snapshots, or, for instance-store-backed AMIs, a template for the root volume of the instance (for example, an operating system, an application server, and applications).
+
+Launch permissions that control which AWS accounts can use the AMI to launch instances.
+
+A block device mapping that specifies the volumes to attach to the instance when it's launched.
+
+Amazon Machine Image (AMI) topics
 
 
