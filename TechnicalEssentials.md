@@ -253,6 +253,10 @@ EVERY EC2 MUST LIVE INSIDE OF A NETWORK
   * Block device mapping
 
 
+The amazon machin image looks like this:
 
+```
+An Amazon Machine Image (AMI) is a supported and maintained image provided by AWS that provides the information required to launch an instance.
+```
 
 
